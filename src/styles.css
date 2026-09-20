@@ -171,6 +171,17 @@
 @utility clinical-shadow { box-shadow: 0 14px 34px color-mix(in oklab, var(--foreground) 8%, transparent); }
 @utility panel-shadow { box-shadow: 0 6px 18px color-mix(in oklab, var(--foreground) 6%, transparent); }
 @utility pulse-line { animation: pulse-line 1.7s ease-in-out infinite; }
+@utility input {
+  width: 100%;
+  min-height: 2.75rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  padding: 0.65rem 0.8rem;
+  font-size: 0.875rem;
+  outline: none;
+  &:focus { border-color: var(--primary); box-shadow: 0 0 0 3px color-mix(in oklab, var(--primary) 14%, transparent); }
+}
 
 @keyframes pulse-line { 0%,100% { opacity:.45; transform:scaleX(.97) } 50% { opacity:1; transform:scaleX(1) } }
 
