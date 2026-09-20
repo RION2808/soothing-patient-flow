@@ -56,6 +56,11 @@ ChatGPT, Gemini for reasearch purposes.
 Lovable for making the webpage
 Claude for adding final touches to the web
 
+Members:
+Harshavardhan P
+Avirath Bora
+Arav Gupta
+Arnav Mittal
 
 Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
 
